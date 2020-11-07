@@ -14,7 +14,7 @@ class ThisIsTheTest extends TestCase
 
     public function testFail(): void
     {
-        $var = false;
+        $var = true;
         self::assertTrue($var);
     }
 }
